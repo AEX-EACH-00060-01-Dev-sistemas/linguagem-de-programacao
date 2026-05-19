@@ -18,7 +18,7 @@ Nesta pasta, o conteúdo está organizado em três pilares fundamentais:
 
 ### 1. 🛠️ O Jeito Profissional de Trabalhar
 Antes do código, a organização. Aprenda a isolar seus projetos para evitar conflitos.
-* Uso de **Ambientes Virtuais (`venv`)**.
+* [**Uso de Ambientes Virtuais (`venv`)**](./ambientes-virtuais/README.md) — Isole suas dependências por projeto.
 * Gerenciamento de bibliotecas com **Pip**.
 
 ### 2. 📊 As Ferramentas Essenciais (Stack de Dados)

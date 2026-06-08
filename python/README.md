@@ -32,4 +32,39 @@ Utilizaremos arquivos `.ipynb` (Jupyter Notebooks) para que você possa ver o re
 
 ---
 
-## 🚀 Como Preparar seu NOte
+## 🚀 Como Preparar seu Notebook
+
+### ⚙️ Instalar e Executar o Jupyter Notebook
+
+**Passo 1: Abra o terminal**
+No Windows: Pressione as teclas Win + R, digite CMD e aperte Enter. Você também pode buscar por PowerShell no menu Iniciar do sistema.
+No Linux: Pressione as teclas Ctrl + Alt + T em conjunto para abrir o Terminal.
+
+**Passo 2: Instale o Jupyter**
+Digite o comando abaixo na tela preta e pressione Enter para iniciar a instalação:
+```bash
+pip install notebook
+```
+
+**Passo 3: Atualize o gerenciador de pacotes (opcional, mas recomendado)**
+Após a instalação, caso o próprio terminal peça para atualizar o pip, rode o comando abaixo e aguarde a conclusão:
+```bash
+python.exe -m pip install --upgrade pip
+```
+(no Linux modifique o começo do comando trocando python.exe por python3).
+
+**Passo 4: Inicie o programa**
+Por fim, para executar a interface do Jupyter no seu navegador, digite o comando:
+```bash
+jupyter notebook
+```
+Caso não abra de imediato no navegador copie um dos dois caminhos URL's que aparecerão no terminal após executar o comando. 
+![Terminal Jupyter](imagens/comando%20jupyter%20notebook.png)
+
+⚠️ **Solução de Problemas e Erros Comuns:**
+
+* **Erros no Windows:** Caso surja algum erro de permissão negada durante a execução, feche a janela atual, busque pelo CMD no menu Iniciar, clique com o botão direito do mouse e selecione a opção "Executar como administrador" antes de rodar o programa.
+* **Erros no Linux:** Se receber mensagens de acesso negado durante a instalação, adicione a palavra sudo antes do comando para rodar com privilégios de superusuário (exemplo: `sudo pip install notebook`).
+
+
+

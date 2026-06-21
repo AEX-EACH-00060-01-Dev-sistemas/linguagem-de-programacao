@@ -1,4 +1,4 @@
-# 🐍 Python
+# # <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="35" alt="Python Logo"> Python
 
 Bem-vindo à seção dedicada à linguagem **Python**! Este material foi desenvolvido para transformar o seu conhecimento básico em uma habilidade prática voltada para o mercado de **Dados e Automação**.
 

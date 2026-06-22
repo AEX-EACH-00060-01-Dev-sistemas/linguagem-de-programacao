@@ -1,7 +1,5 @@
 # 🧰 Ambientes Virtuais em Python
 
-## O que é um Ambiente Virtual?
-
 Imagine que você tem dois projetos no mesmo computador:
 
 - **Projeto A** precisa da versão `1.5` de uma biblioteca.
@@ -9,124 +7,26 @@ Imagine que você tem dois projetos no mesmo computador:
 
 Se você instalar bibliotecas diretamente no Python do seu sistema, os dois projetos vão brigar pela mesma versão — e um deles vai quebrar.
 
-Um **ambiente virtual** resolve isso criando uma **cópia isolada do Python** para cada projeto. Cada ambiente tem suas próprias bibliotecas, na versão exata que aquele projeto precisa, sem interferir nos outros.
+Um **ambiente virtual** resolve isso criando uma **cópia isolada do Python** para cada projeto. Cada ambiente tem suas próprias bibliotecas, na versão exata que aquele projeto precisa, sem interferir nos demais.
 
 > 💡 **Regra de ouro:** Todo projeto Python profissional usa um ambiente virtual. É o primeiro passo antes de escrever qualquer linha de código.
 
 ---
 
-## Por que usar?
+## 📚 Índice do Módulo
 
-| Sem ambiente virtual | Com ambiente virtual |
-|---|---|
-| Bibliotecas instaladas globalmente | Bibliotecas isoladas por projeto |
-| Conflitos de versão entre projetos | Cada projeto tem suas próprias versões |
-| Difícil de replicar em outra máquina | Fácil de replicar com `requirements.txt` |
-| Bagunça ao longo do tempo | Ambiente limpo e controlado |
-
----
-
-## Como criar um Ambiente Virtual
-
-O Python já vem com a ferramenta `venv` embutida — você não precisa instalar nada extra.
-
-### Passo 1 — Abra o terminal na pasta do seu projeto
-
-No VS Code, use o menu **Terminal → Novo Terminal**.
-
-### Passo 2 — Crie o ambiente virtual
-
-```bash
-python -m venv venv
-```
-
-> Isso cria uma pasta chamada `venv/` dentro do seu projeto. Ela contém o Python e o `pip` isolados.  
-> O segundo `venv` é o **nome da pasta** — por convenção usa-se `venv`, mas você pode dar outro nome.
-
-### Passo 3 — Ative o ambiente virtual
-
-A ativação "aponta" o terminal para usar o Python e o `pip` do ambiente isolado.
-
-**No Windows (PowerShell):**
-```powershell
-venv\Scripts\Activate.ps1
-```
-
-**No Windows (Prompt de Comando):**
-```cmd
-venv\Scripts\activate.bat
-```
-
-**No Linux / macOS:**
-```bash
-source venv/bin/activate
-```
-
-Após ativar, você verá o nome do ambiente entre parênteses no terminal:
-```
-(venv) C:\MeuProjeto>
-```
-
-### Passo 4 — Instale as bibliotecas que precisar
-
-Com o ambiente ativo, qualquer instalação ficará restrita a ele:
-
-```bash
-pip install pandas numpy matplotlib
-```
-
-### Passo 5 — Salve as dependências do projeto
-
-Para que outra pessoa (ou você mesmo em outro computador) possa recriar o mesmo ambiente, gere um arquivo `requirements.txt`:
-
-```bash
-pip freeze > requirements.txt
-```
-
-Para instalar a partir desse arquivo depois:
-```bash
-pip install -r requirements.txt
-```
-
-### Passo 6 — Desative o ambiente quando terminar
-
-```bash
-deactivate
-```
+| Aula | Título | Descrição |
+|------|--------|-----------|
+| [01](./01.md) | Por que usar Ambientes Virtuais? | O problema dos conflitos de versão, comparativo e analogias |
+| [02](./02.md) | `venv` na Prática | Criar, ativar, instalar pacotes e desativar o ambiente |
+| [03](./03.md) | `pip` e Gerenciamento de Dependências | `requirements.txt`, versionamento e boas práticas de pacotes |
+| [04](./04.md) | Alternativas ao `venv` | Comparativo entre `venv`, `conda`, `pipenv` e `poetry` |
+| [05](./05.md) | Boas Práticas e `.gitignore` | O que commitar, estrutura de projeto e checklist profissional |
 
 ---
 
-## Resumo dos comandos
+## 🚀 Por onde começar?
 
-```bash
-# Criar
-python -m venv venv
+Se você nunca usou ambientes virtuais, comece pela **Aula 01** e siga a ordem. Cada aula se apoia na anterior.
 
-# Ativar (Linux/macOS)
-source venv/bin/activate
-
-# Ativar (Windows PowerShell)
-venv\Scripts\Activate.ps1
-
-# Instalar biblioteca
-pip install <nome-da-biblioteca>
-
-# Salvar dependências
-pip freeze > requirements.txt
-
-# Reinstalar dependências (em outra máquina)
-pip install -r requirements.txt
-
-# Desativar
-deactivate
-```
-
----
-
-## Boas práticas
-
-- **Nunca suba a pasta `venv/` para o Git.** Adicione `venv/` ao seu `.gitignore`.
-- **Sempre suba o `requirements.txt`.** É ele que permite recriar o ambiente.
-- Ative o ambiente virtual toda vez que for trabalhar no projeto.
-
----
+Se já sabe o básico de `venv` e quer avançar, pule direto para a **Aula 03** ou **Aula 04**.

@@ -1,11 +1,5 @@
-lista = ["Banana", "Maçã", "Pepino"]
+x = 0
 
-while(lista != []): # []
-    print("LISTA ANTES: ", lista)
-    print("REMOVIDO: ", lista.pop())
-    print("LISTA DEPOIS: ", lista)
-    print("")
-
-print("FORA DO LAÇO")
-# Enquanto condição faça:
-#   Ação
+while(x < 10):
+    print(x)
+    x += 1

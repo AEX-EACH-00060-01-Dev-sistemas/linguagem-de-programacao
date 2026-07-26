@@ -210,8 +210,8 @@ print('Upper Method Example'.upper())
 ### str.title()
 Retorna uma string em que cada início.
 ```python
-print('Upper Method Example'.upper())
-# 'UPPER METHOD EXAMPLE'
+print('title method example'.title())
+# 'Title Method Example'
 ```
 
 ## Métodos de partições

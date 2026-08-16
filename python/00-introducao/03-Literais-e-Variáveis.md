@@ -1,7 +1,7 @@
 # Literais e Variáveis
 
 ---
-[← Anterior: Primeiros Passos](02.md) | [Próximo: Operações →](04.md)
+[← Anterior: Primeiros Passos](02-Primeiros-Passos.md) | [Próximo: Operações →](04-Operadores.md)
 
 ---
 
@@ -150,6 +150,6 @@ Na próxima aula veremos operações que se pode realizar com os tipos abordados
 * **"Busquem conhecimento"**- *ET Bilu*
 
 ---
-[← Anterior: Primeiros Passos](02.md) | [Próximo: Operações →](04.md)
+[← Anterior: Primeiros Passos](02-Primeiros-Passos.md) | [Próximo: Operações →](04-Operadores.md)
 
 ---

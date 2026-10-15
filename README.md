@@ -20,9 +20,6 @@ Foco em **Introdução à Programação e Estruturas Condicionais**.
   - **Python 3:** Execução de códigos via linha de comando.
   - **Indentação:** Regras de alinhamento de bloco usando a tecla `Tab`.
 
-### ☕ [Java e Outras Linguagens](./java)
-Comparativo entre o funcionamento de estruturas de controle tradicionais (como o `switch/case` em C e Java) e a sintaxe de `match/case` adotada no Python.
-
 ---
 
 ## 🛠️ Como começar?

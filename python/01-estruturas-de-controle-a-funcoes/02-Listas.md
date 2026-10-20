@@ -19,7 +19,7 @@ Então como a máquina faz?? Bem, vamos entender o básico de uma lista em um co
 
 
 
-Penso em um retângulo gigantesco! (Ou só olhe a imagem abaixo):
+Pensa em um retângulo gigantesco! (Ou só olhe a imagem abaixo):
 
 
 
@@ -207,7 +207,7 @@ Na realidade, o `lista_copy` recebe o endereço da lista. Então, toda a operaç
 
 
 
-Para realmente se fazer uma códia do array, há duas maneira:
+Para realmente se fazer uma cópia do array, há duas maneira:
 ```python
 lista = [10,20,30,40,50]
 
@@ -247,7 +247,7 @@ valor1 = lista.pop() # 50
 valor2 = lista.pop(2) # 30
 # valor3 = lista.pop(3) -> resulta em erro, pois o elemento naquela posição já foi excluído
 
-print(lista) # [10,20,30]
+print(lista) # [10,20,40]
 print(valor1) # 50
 print(valor2) # 30
 ```
@@ -395,7 +395,7 @@ Todas as funções e métodos de listas é aplicável em Strings, além das téc
 
 
 ## OBSERVAÇÕES IMPORTANTES: Custos
-Aqui que começaremos a entrar numa parte importante da programaçã, mas não aprofundaremos muito: **o custo de um programa**. 
+Aqui que começaremos a entrar numa parte importante da programação, mas não aprofundaremos muito: **o custo de um programa**. 
 
 
 

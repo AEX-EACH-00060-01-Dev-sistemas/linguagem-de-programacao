@@ -33,6 +33,7 @@ Até onde aprendemos, para fazer essa cobra chegar na maçã e come-lá, temos q
 \
 `INSTRUÇÃO: Fim do programa`
 \
+\
 Em resumo, o código ficaria assim:
 ```
 INÍCIO DO PROGRAMA

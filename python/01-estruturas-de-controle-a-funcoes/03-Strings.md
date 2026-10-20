@@ -1,13 +1,13 @@
 # String
 AH! Textos! Parece ser algo tão simples, mas acaba por ser... mais difícil para o computadorzinho... Mas o Python oferece opções que facilitam nossa visa como programador.
 
-Primeiro, relembrando, uma String na realidade é uma lista de caracteres organizados. Algo que não se deve se importar aqui no Python, mas todos os textos terminam com uum caracter especial chamado de `zero`, que seriam o `\0`. Quando o computador esbarra nele, ele começa a interpretar o vetor como um texto.
+Primeiro, relembrando, uma String na realidade é uma lista de caracteres organizados. Algo que não se deve se importar aqui no Python, mas todos os textos terminam com um caracter especial chamado de `zero`, que seriam o `\0`. Quando o computador esbarra nele, ele começa a interpretar o vetor como um texto.
 
 Como uma String é uma lista, todos os métodos de array funciona com ele, mas ele acaba por ter métodos e funções a mais! Aqui nesta aula veremos eles.
 
 ## Métodos de Alinhamentos
 
-### str.center(width,fillchar=" ")
+### str.center(width, fillchar=" ")
 Este método irá pegar um texto e centralizar ele numa largura (o `width`). Se esta largura for menor que o texto, nada é feito. Caso queira, dá para indicar um *char* (caracter) para preencher o espaço em branco com o *fillchar*.
 ```python
 valor = "Olá!!"
@@ -16,7 +16,7 @@ print(valor.center(20))
 #'       Olá!!        '
 
 print(valor.center(20, "-"))
-#'       Olá!!        '
+#'-------Olá!!--------'
 
 print(valor.center(20, ""))
 """
@@ -50,13 +50,13 @@ TypeError: The fill character must be exactly one character long
 ### str.rjust(width, fillchar=" ")
 Retorna uma String que vai ser alinha a direita, em que vai ter o tamanho do *width* e o espaço em branco será preenchido com o *char* (caracteres) indicado no *fillchar*. Caso o len(str) for maior que o *width*, retorna a String normal.
 ```python
-print("Python".ljust(20))
-# 'Python              '
+print("Python".rjust(20))
+# '              Python'
 
-print("Python".ljust(20, "-"))
-# 'Python--------------'
+print("Python".rjust(20, "-"))
+# '--------------Python'
 
-print("Python".ljust(20, ""))
+print("Python".rjust(20, ""))
 """
 Traceback (most recent call last):
   File "<python-input-8>", line 1, in <module>

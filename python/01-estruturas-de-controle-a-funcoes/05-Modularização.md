@@ -34,7 +34,7 @@ Código do arquivo `somas.py`:
 def soma2valores(x,y):
     return x+y
 
-def soma3valroes(x,y,z):
+def soma3valores(x,y,z):
     return x+y+z
 ```
 
@@ -206,7 +206,7 @@ msg(str(soma2valores(10,20)))
 ```
 
 ## Bibliotecas externas
-Fazer tudo sozinho pode ser muito trabalhoso! Mas incrivelmente há diversos programadores que fizeram várias bibliotecas. Bibliotecas de jogos ou de cálculos matemáticas que o python básico não oferece, demonstrando em alguns casos um desempenho melhor que o próprio Python.
+Fazer tudo sozinho pode ser muito trabalhoso! Mas incrivelmente há diversos programadores que fizeram várias bibliotecas. Bibliotecas de jogos ou de cálculos matemáticas que o Python básico não oferece, demonstrando em alguns casos um desempenho melhor que o próprio Python.
 
 Para conseguimos pegar bibliotecas externas, precisamos criar um ambiente virtual do Python, e podemos ver isso no [Ambiente Virtual](../ambientes-virtuais/). Aqui vamos só abordar como baixar a biblioteca de forma mais rápida e demonstrar como usar.
 

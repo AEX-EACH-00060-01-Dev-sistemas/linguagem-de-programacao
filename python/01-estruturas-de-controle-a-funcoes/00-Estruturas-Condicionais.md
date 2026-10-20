@@ -1,15 +1,15 @@
 # ESTRUTURAS DE CONTROLE
 Estrutras de controles são maneiras de controlar o fluxo da informação no código, elas vão permitir fazer *loops* e orientar o código por condições! O conteúdo da aula será dividida em dois: este atual (Condicionais) e o próximo (Repetição). Abaixo o que será abordado:
-* [Estruturas condicionais]()
+* [Estruturas condicionais](./00-Estruturas-Condicionais.md)
   * IF
   * IF...ELSE
   * Condições aninhadas
   * IF...ELIF
   * MATCH CASE
-* [Estruturas de Repetição]()
+* [Estruturas de Repetição](./01-Estruturas-de-Repetição.md)
   * FOR IN RANGE
   * WHILE
-  * FOR + ENUMERATE
+  * FOR
   
 # ESTRUTURAS DE CONDICIONAIS
 Pense na situação: você está no seu carro e precisa escolher entre qual rua virar em um cruzamento. Você verifica seu GPS: Ele fala para virar para direita? Se sim, vire a direita; se não, vire a esquerda. Isso é base de uma estrutura condicional: um condição que desdobra em dois caminhos. No nosso português, seria mais ou menos assim:
@@ -61,7 +61,7 @@ else:
 print("Fim do programa!")
 ```
 
-Apartir daí, é possível colocar inifitos `if` e `else` dentro do programa.
+A partir daí, é possível colocar inifitos `if` e `else` dentro do programa.
 
 ## ELIF
 O `elif` é uma forma resumida de digitar uma condição aninhada. Para usá-la, segue-se o padrão:

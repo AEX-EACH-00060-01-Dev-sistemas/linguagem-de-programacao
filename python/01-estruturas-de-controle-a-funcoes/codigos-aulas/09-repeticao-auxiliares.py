@@ -26,3 +26,6 @@ for num in range(5): # 0 1 2 3 4
 print("PASS")
 for contador in range(10):
     pass
+
+if num < 50:
+    pass

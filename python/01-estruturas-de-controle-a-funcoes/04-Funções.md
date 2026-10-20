@@ -47,7 +47,7 @@ ao_quadrado(2) # 4
 
 Veja que quando passamos o 10 entre os parênteses, ele é "jogado" dentro de `numero` e é usado dentro da função. Isso acontece para os outros números.
 
-Não ficamos limitados em dois parâmetros, podemos escrever quantos quiser, como exemplo uma função que calcula a soma de 3 valores:
+Não ficamos limitados em um parâmetro, podemos escrever quantos quiser, como exemplo uma função que calcula a soma de 3 valores:
 ```python
 def add3(x1,x2,x3):
     print(x1+x2+x3)

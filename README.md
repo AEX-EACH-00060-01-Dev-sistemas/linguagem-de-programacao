@@ -23,3 +23,6 @@ Focos em [...]
 
 ---
 *Este repositório faz parte do projeto extensionista de apoio ao desenvolvimento e execução de sistemas de informação.*
+
+## Referência bibliográficas
+FERREIRA FILHO, Wladston. Computer Science Distilled: learn the art of solving computational problems. 1. ed. Las Vegas: Code Energy, 2017. 168 p. ISBN 978-0-9973160-0-1. E-book (PDF).

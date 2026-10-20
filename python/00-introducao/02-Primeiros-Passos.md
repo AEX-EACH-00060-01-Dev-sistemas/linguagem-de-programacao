@@ -1,11 +1,11 @@
 # Primeiros passos
 
 ---
-[← Anterior: Paradigmas da Programação](01.md) | [Próximo: Literais e Variáveis →](03.md)
+[← Anterior: Paradigmas da Programação](01-Paradigmas.md) | [Próximo: Literais e Variáveis →](03-Literais-e-Variáveis.md)
 
 ---
 
-Para desenvolver puramente o python, só precisamos de um editor de texto comum (como o bloco de notas), mas para facilitarmos nossa vida, podemos usar IDE's própria de Python (como Pycharm, Jupyter Anaconda e Google Colab) ou usar uma geral, como o Visual Studio Code (VSCode para os intímos). Como o foco é aprender a própria lógica de programação e seus princípios, iremos usar o VSCode e aprender a usar o terminal para rodar nossos códigos em Python.
+Para desenvolver puramente o python, só precisamos de um editor de texto comum (como o bloco de notas), mas para facilitarmos nossa vida, podemos usar IDE's própria de Python (como Pycharm, Jupyter, etc.) ou editores de texto mais completos (como o Visual Studio Code).
 \
 Antes de tudo, precisamos instalar tudo que vamos usar: Visual Studio Code e o Python.
 
@@ -39,7 +39,7 @@ python --version
 ## Instalação do VSCode
 Acesse [code.visualstudio.com](https://code.visualstudio.com/) e baixe o instalador para o seu sistema operacional.
 
-Após instalar, abra o VSCode e instale a extensão **Python** (da Microsoft) — ela adiciona suporte a sintaxe, depuração e execução de arquivos `.py` diretamente no editor. Para instalá-la, pressione `Ctrl+Shift+X`, pesquise por "Python" e clique em *Install*.
+Após instalar, abra o VSCode e instale a extensão **Python** (da Microsoft) — ela adiciona suporte a sintaxe, depuração e execução de arquivos `.py` diretamente no editor. Para instalá-la, vá em *Extensions* (Ctrl+Shift+X), pesquise por "Python" e clique em *Install*.
 
 ## Google Colab
 O [Google Colab](https://colab.research.google.com/) é uma alternativa online que não exige instalação de nada. É ideal para:
@@ -67,6 +67,6 @@ python hello.py    # Windows
 Se aparecer `Hello, World!` no terminal, seu ambiente está pronto!
 
 ---
-[← Anterior: Paradigmas da Programação](01.md) | [Próximo: Literais e Variáveis →](03.md)
+[← Anterior: Paradigmas da Programação](01-Paradigmas.md) | [Próximo: Literais e Variáveis →](03-Literais-e-Variáveis.md)
 
 ---

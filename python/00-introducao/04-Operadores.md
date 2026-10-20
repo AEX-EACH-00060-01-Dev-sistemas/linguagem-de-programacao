@@ -1,7 +1,7 @@
 # OPERAÇÕES
 
 ---
-[← Anterior: Literais e Variáveis](03.md)
+[← Anterior: Literais e Variáveis](03-Literais-e-Variáveis.md)
 
 ---
 
@@ -302,6 +302,6 @@ print(y and x) # []
 Hoje foi mais puxadinho, mas acabamos! Acabamos com os conceitos mais básicos de programação. Aqui neste repositório temos alguns exercícios para abordar esses conceitos mais básicos
 
 ---
-[← Anterior: Literais e Variáveis](03.md)
+[← Anterior: Literais e Variáveis](03-Literais-e-Variáveis.md)
 
 ---
